@@ -1,27 +1,18 @@
 <template>
   <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-      <a
-        href="https://flowbite.com"
-        class="flex items-center space-x-3 rtl:space-x-reverse"
-      >
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          class="h-8"
-          alt="Flowbite Logo"
-        />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-          >Flowbite</span
-        >
-      </a>
-      <div class="flex items-center space-x-6 rtl:space-x-reverse">
+      <img
+        src="https://i.pinimg.com/564x/33/22/90/332290edcf0acb810b012dd8b9caa491.jpg"
+        class="h-8"
+        alt="Flowbite Logo"
+      />
+      <div class="flex items-center space-x-2">
+        <WhatsappIcon />
         <a
-          href="tel:5541251234"
+          href="whatsapp://send?phone=5573954476"
           class="text-sm text-gray-500 dark:text-white hover:underline"
-          >(555) 412-1234</a
         >
-        <a href="#" class="text-sm text-blue-600 dark:text-blue-500 hover:underline"
-          >Login</a
+          (557) 395-4476</a
         >
       </div>
     </div>
@@ -54,5 +45,10 @@
 </template>
 
 <script>
-export default {};
+import WhatsappIcon from "./Svg/WhatsappIcon.vue";
+export default {
+  components: {
+    WhatsappIcon,
+  },
+};
 </script>
