@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import ImgPokemon from "@/components/IMG/ImgPokemon.vue";
+import ImgPokemon from "@/components/Img/ImgPokemon.vue";
 import WhatsappIcon from "@/components/Svg/WhatsappIcon.vue";
 export default {
   components: {

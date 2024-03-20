@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import SnorlaxImg from "@/components/IMG/SnorlaxImg.vue";
+import SnorlaxImg from "@/components/Img/SnorlaxImg.vue";
 import BotonReturnBack from "@/components/botones/BotonReturnBack.vue";
 export default {
   components: {

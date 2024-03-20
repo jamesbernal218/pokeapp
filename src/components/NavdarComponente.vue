@@ -28,7 +28,7 @@
 
 <script>
 import WhatsappIcon from "./Svg/WhatsappIcon.vue";
-import ImgPokemon from "./IMG/ImgPokemon.vue";
+import ImgPokemon from "./Img/ImgPokemon.vue";
 export default {
   components: {
     WhatsappIcon,
