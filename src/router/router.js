@@ -1,15 +1,17 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import NavdarApp from '../components/pokemon/pages/NavdarApp.vue'
-import NoPageFound from '../components/shared/pages/NoPageFound.vue'
 
 const routes = [
     {
         path: '/',
-        component: NavdarApp
+        component: () => import(
+            /*webpackChunkName: "Home"*/
+            '../components/pokemon/pages/NavdarApp')
     },
     {
         path: '/:pathMatch(.*)*',
-        component: NoPageFound
+        component: () => import(
+            /*webpackChunkName: "NoPageFound"*/
+            '../components/shared/pages/NoPageFound')
     },
 ]
 
