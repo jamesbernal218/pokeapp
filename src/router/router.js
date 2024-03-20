@@ -5,7 +5,7 @@ const routes = [
         path: '/',
         component: () => import(
             /*webpackChunkName: "Home"*/
-            '../components/pokemon/pages/TestGg')
+            '../components/pokemon/pages/HomeApp')
     },
     {
         path: '/:pathMatch(.*)*',
