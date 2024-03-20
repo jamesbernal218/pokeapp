@@ -18,7 +18,9 @@
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
           <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
+            <router-link to="/team" class="text-gray-900 dark:text-white hover:underline"
+              >Buscador</router-link
+            >
           </li>
         </ul>
       </div>

@@ -8,6 +8,12 @@ const routes = [
             '../components/pokemon/pages/HomeApp')
     },
     {
+        path: '/team',
+        component: () => import(
+            /*webpackChunkName: "Home"*/
+            '../components/pokemon/pages/BuscadorPokemon')
+    },
+    {
         path: '/:pathMatch(.*)*',
         component: () => import(
             /*webpackChunkName: "NoPageFound"*/
